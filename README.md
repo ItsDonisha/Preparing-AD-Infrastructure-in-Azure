@@ -27,34 +27,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
+![image](https://github.com/user-attachments/assets/69e5eb08-acd9-485b-9f18-fd0e3e3531ca)
 
-![image](https://github.com/user-attachments/assets/c2b2ddf0-0593-4106-84ec-14554e7b0ee0)
+![image](https://github.com/user-attachments/assets/0a6fdcfb-b806-4e27-8ae2-9de931b2ed7a)
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-![image](https://github.com/user-attachments/assets/f5d6ad7f-3fab-46ca-a89f-6de33b170d13)
+![image](https://github.com/user-attachments/assets/41b84fc7-22e7-4e3f-8c6c-5d58a818a0b7)
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/a04b0f19-25e2-43e9-8ee7-d6120343e772)
 
-![image](https://github.com/user-attachments/assets/4b32b463-8be8-4984-9291-02bbbb59f3cf)
+![image](https://github.com/user-attachments/assets/4c76bd03-2a1b-4c1d-bf5d-f92f1ff1945c)
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/682c9e10-5b1c-4488-ae2d-4171eddfb814)
 
-![image](https://github.com/user-attachments/assets/7354ad69-9768-4247-957e-ffd9b69f80dc)
 
-![image](https://github.com/user-attachments/assets/cc472add-b3a9-47e1-9e7f-58b5f9168f63)
+![image](https://github.com/user-attachments/assets/2afbeb44-2172-4f7f-954c-2af86539d025)
 
-![image](https://github.com/user-attachments/assets/fd37403f-ec12-4b5c-9340-a2e6b5253a40)
 
+![image](https://github.com/user-attachments/assets/ef5732b0-6411-4a90-9321-9f0bc26a695a)
+
+![image](https://github.com/user-attachments/assets/f001dfd5-427a-4233-9063-1cea59f820f2)
+
+
+![image](https://github.com/user-attachments/assets/b46ebe8c-6ca0-4abc-baec-93adfc08dc7b)
+
+
+![image](https://github.com/user-attachments/assets/77c801bb-b685-4f8a-bad8-32b87fcd7fb2)
