@@ -2,10 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
-
-
+<h1>Preparing Activty Directory (Azure)</h1>
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,37 +16,35 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+After creating the **resource group** and **virtual network**, we will set up two virtual machines: **DC-1** (Windows Server 2022) and **Client-1** (Windows 10). Both will be connected to the same **VNet** for communication.  
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+Once **DC-1** is created, we need to set its **private IP address** to static. In the **Azure Portal**, go to **DC-1 > Networking > Network Interface > IP Configurations**, then change the **Private IP Address** from **Dynamic** to **Static** and save the changes.  
 
-<h2>Deployment and Configuration Steps</h2>
-![image](https://github.com/user-attachments/assets/69e5eb08-acd9-485b-9f18-fd0e3e3531ca)
+Next, log in to **Client-1** using **Remote Desktop** and disable the **Windows Firewall**. Open the **Start Menu**, search for **Windows Defender Firewall**, and turn it **off** for both **Private** and **Public** networks.  
 
-![image](https://github.com/user-attachments/assets/0a6fdcfb-b806-4e27-8ae2-9de931b2ed7a)
+To check the connection, open **Command Prompt** on **Client-1** and ping **DC-1’s private IP address** using:  
+```cmd
+ping [DC-1 Private IP]
+```  
+If the ping is successful, open **PowerShell** and run:  
+```powershell
+ipconfig /all
+```  
+Make sure **DC-1’s private IP** appears as the **Primary DNS Server**. If everything checks out, the setup is complete, and the network is ready for **Active Directory** configuration.
 
+<h2>Picture Data </h2>
 
-![image](https://github.com/user-attachments/assets/41b84fc7-22e7-4e3f-8c6c-5d58a818a0b7)
+![image](https://github.com/user-attachments/assets/04440e5b-4f88-44b1-b797-cb43e9b99ddc)
 
-![image](https://github.com/user-attachments/assets/a04b0f19-25e2-43e9-8ee7-d6120343e772)
+![image](https://github.com/user-attachments/assets/a40717e8-2589-4895-a10a-3798b1cf5c1d)
 
-![image](https://github.com/user-attachments/assets/4c76bd03-2a1b-4c1d-bf5d-f92f1ff1945c)
+![image](https://github.com/user-attachments/assets/12deed06-10a3-4e73-a68b-a3df0ceda6db)
 
-![image](https://github.com/user-attachments/assets/682c9e10-5b1c-4488-ae2d-4171eddfb814)
+![image](https://github.com/user-attachments/assets/f4ee8709-f483-4f02-92b6-1020920dc140)
 
+![image](https://github.com/user-attachments/assets/69f5dda8-a67a-4d55-a1aa-8935f9f9dde4)
 
-![image](https://github.com/user-attachments/assets/2afbeb44-2172-4f7f-954c-2af86539d025)
+![image](https://github.com/user-attachments/assets/af3e916e-28c8-4706-8526-f32ba13a30ee)
 
+![image](https://github.com/user-attachments/assets/0fa8d805-cbcf-430f-b2a7-f1996ec28a96)
 
-![image](https://github.com/user-attachments/assets/ef5732b0-6411-4a90-9321-9f0bc26a695a)
-
-![image](https://github.com/user-attachments/assets/f001dfd5-427a-4233-9063-1cea59f820f2)
-
-
-![image](https://github.com/user-attachments/assets/b46ebe8c-6ca0-4abc-baec-93adfc08dc7b)
-
-
-![image](https://github.com/user-attachments/assets/77c801bb-b685-4f8a-bad8-32b87fcd7fb2)
